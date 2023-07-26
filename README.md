@@ -58,7 +58,7 @@ We list the results of `htc2022_ta_full` here as an example. The test data whose
 python main.py
 ```
 
-**Results （angle views = 30°）**:
+## Results （angle views = 30°）:
 
 ![image-20221026214000039](Figures/result_30.png)
 
