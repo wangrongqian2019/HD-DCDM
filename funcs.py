@@ -316,7 +316,8 @@ def Load_process(data_path,output_path,group_number):
     angles=angles-angle_min
     
     ##preprocessing
-    sinogram = Preprocess(sinogram,device,group_number)
+    #sinogram = Preprocess(sinogram,device,group_number)
+    sinogram = 180*sinogram
     print('Data preprocessing finished......\n')
     torch.cuda.empty_cache()
     ##back projection
