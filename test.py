@@ -13,7 +13,7 @@ parser.add_argument('--output_size', default=512, type=int, help=' The figure si
 args = parser.parse_args()
 
 
-if __name__ == "__main__":
+if __name__ == "__test__":
     
     group_number=args.group_number
     data_folder=args.data_dir
